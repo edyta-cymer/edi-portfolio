@@ -382,8 +382,18 @@ h3:hover {
     position: inherit;
     left: none;
   }
+  .p-about-margin {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .h1-main {
+    margin-bottom: 5rem;
+  }
   .home {
     padding-top: 10rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   .section-work {
     display: grid;
@@ -400,6 +410,14 @@ h3:hover {
     /* 9px / 16px  */
     font-size: 56.25%;
   }
+  .header:hover {
+    transform: none;
+  }
+  h4 {
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+
   .section-work {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -408,6 +426,11 @@ h3:hover {
     padding: 2.2rem 0 2.2rem 0;
     margin-left: 3rem;
     margin-right: 3rem;
+  }
+  .p-about-margin {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
   }
 }
 @media (max-width: 59em) {
@@ -420,7 +443,7 @@ h3:hover {
     grid-template-columns: repeat(1, 1fr);
   }
   .card {
-    height: 35rem;
+    height: 44rem;
   }
   .section-about {
     display: flex;
@@ -451,9 +474,7 @@ h3:hover {
   .header {
     height: 10rem;
   }
-  h4 {
-    font-size: 1.6rem;
-  }
+
   .section-about {
     padding: 0 2rem;
   }
@@ -480,7 +501,7 @@ h3:hover {
   .photo-two {
     margin: 0 auto;
     border-radius: 20px;
-    opacity: 1;
+    opacity: 0.6;
   }
 }
 
@@ -491,9 +512,7 @@ h3:hover {
   h1 {
     font-size: 4.4rem;
   }
-  h4 {
-    font-size: 1.6rem;
-  }
+
   .section-about {
     padding: 0 2rem;
   }

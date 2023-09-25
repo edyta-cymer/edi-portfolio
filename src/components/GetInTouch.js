@@ -32,6 +32,7 @@ const GetInTouch = () => {
     <section className="section-cta" id="getintouch">
       <div className="cta">
         <img src={phototwo} alt="profile " className="photo-two"></img>
+
         <div className="text-box">
           <h3> Say Hello 📨 </h3>
           <form ref={form} onSubmit={sendEmail} className="cta-form" action="#">

@@ -12,7 +12,7 @@ const About = () => {
         </figure>
 
         <aside>
-          <p className="p-about">
+          <p className="p-about p-about-margin">
             After 7 years of experience in the music industry as a singer, vocal
             coach, and music teacher, I have decided to change my career path.
             Since then, I have been consistently developing my skills in the IT

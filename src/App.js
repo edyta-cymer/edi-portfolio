@@ -22,7 +22,7 @@ function App() {
     <ThemeContext.Provider value={theme}>
     <div className={`App-${theme}`}>
       <main>
-        <button onClick={() => setTheme(currTheme => currTheme === 'light' ? 'dark' : 'light')} >dupa click me</button>
+        <button onClick={() => setTheme(currTheme => currTheme === 'light' ? 'dark' : 'light')} >click me</button>
         <Nav />
         <Home />
         <About />

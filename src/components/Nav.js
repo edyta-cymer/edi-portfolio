@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import React from "react";
 
 export const Nav = () => {
+  
   return (
     <header className="header">
       <nav>

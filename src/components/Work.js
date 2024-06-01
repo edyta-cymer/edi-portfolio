@@ -2,6 +2,8 @@ import React from "react";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import projects from "../PROJEKTY.json";
 
+
+
 const Card = ({ title, text, number, link }) => {
   return (
     <div className="card card-one">
@@ -17,6 +19,8 @@ const Card = ({ title, text, number, link }) => {
 };
 
 const Work = () => {
+  
+
   return (
     <section className="section-work" id="work">
       {projects.map((el, index) => (

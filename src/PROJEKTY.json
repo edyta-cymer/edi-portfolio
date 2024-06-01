@@ -5,14 +5,14 @@
     "link": "https://main--regal-bubblegum-0d4df6.netlify.app/"
   },
   {
-    "title": "Notes Project 🗓 ",
-    "text": "Omnifood is part of the Build Real World Website course hosted on Udemy.  This project focuses on design, responsive layout, performance and accessibility.",
-    "link": "https://www.przykladowastrona2.com"
+    "title": "42 Projects - Libft 🗓 ",
+    "text": "42 school's first project, libft, is about learning how the standard functions of C programming work, by coding them from scratch and creating our very own library.",
+    "link": "https://github.com/edyta-cymer/libft"
   },
   {
-    "title": "Projekt 3 📯",
-    "text": "Omnifood is part of the Build Real World Website course hosted on Udemy. This project focuses on design, responsive layout, performance and accessibility.",
-    "link": "https://www.przykladowastrona3.com"
+    "title": "42 Projects - Printf 📯",
+    "text": "This project aims to code a custom implementation of the C printf function.",
+    "link": "https://github.com/edyta-cymer/ft_printf"
   },
   {
     "title": "Projekt 4 📌",

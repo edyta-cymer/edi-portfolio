@@ -10,13 +10,13 @@
     "link": "https://github.com/edyta-cymer/libft"
   },
   {
-    "title": "42 Projects - Printf 📯",
-    "text": "This project aims to code a custom implementation of the C printf function.",
-    "link": "https://github.com/edyta-cymer/ft_printf"
+    "title": "42 Projects - Philosophers 📯",
+    "text": "This project is training in multi-thread and multi-process programming using mutexes and semaphores. It features three programs, each offering a twist on the classic Dining Philosophers problem while following the same basic rules.",
+    "link": "https://github.com/edyta-cymer/Philosophers_dwa"
   },
   {
-    "title": "Projekt 4 📌",
-    "text": "Omnifood is part of the Build Real World Website course hosted on Udemy. This project focuses on design, responsive layout, performance and accessibility.",
-    "link": "https://www.przykladowastrona4.com"
+    "title": "42 Projects - Cub3D 📌",
+    "text": "Cub3D is a 42 school team project to create a dynamic view inside a 3D maze. Using the MiniLibX library, we must implement raycasting in the style of the famous Wolfenstein 3D game, the first true FPS in videogame history.",
+    "link": "https://github.com/edyta-cymer/cub3d"
   }
 ]

@@ -57,12 +57,32 @@ code {
 
 html {
   /* font-size: 10px; */
-
   /* 10px / 16px = 0.625 = 62.5% */
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
   overflow-x: hidden;
-  
+}
+
+.darkmode-button
+{
+  margin-right: 1.8rem;
+  border: none;
+  color: #333;
+  border-radius: 17px;
+  height: 4.2rem;
+  font-family: "Montserrat";
+  padding: 10px;
+  margin-top: 2rem;
+  width: 10rem;
+  transform: rotate(90deg);
+  opacity: 70%;
+  -webkit-box-shadow: 4px 0px 14px -9px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 4px 0px 14px -9px rgba(66, 68, 90, 1);
+  box-shadow: 4px 0px 14px -9px rgba(66, 68, 90, 1);
+}
+.darkmode-button:hover
+{
+  opacity: 90%;
 }
 .main-nav-link {
   cursor: pointer;
@@ -70,7 +90,6 @@ html {
 .main-nav-link:hover {
   opacity: 0.2;
 }
-
 .header {
   height: 7rem;
   max-width: 60rem;
@@ -78,9 +97,7 @@ html {
   margin: 0 auto;
   margin-top: 5rem;
   justify-content: center;
-
   align-items: center;
-
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.14), 0 20px 13px -4px rgba(0, 0, 0, 0.06);
   border-radius: 35px;
   position: fixed;
@@ -122,9 +139,8 @@ a {
 }
 
 /* HOME */
-
 .home {
-  height: 40rem;
+  height: 50rem;
   padding-top: 27rem;
 }
 
@@ -149,7 +165,6 @@ h4 {
 }
 
 /* ABOUT  */
-
 .section-about {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -172,7 +187,6 @@ h4 {
 }
 
 /* WORK  */
-
 .section-work {
   background-color: #ddd;
   display: grid;
@@ -180,7 +194,6 @@ h4 {
   justify-content: center;
   padding: 7rem;
 }
-
 .card {
   height: 60rem;
   min-width: 30rem;
@@ -188,6 +201,9 @@ h4 {
   border-radius: 15px;
   transition: transform 0.3s ease-in-out;
   padding: 4rem;
+  -webkit-box-shadow: 5px 0px 27px -24px rgba(66, 68, 90, 1);
+-moz-box-shadow: 5px 0px 27px -24px rgba(66, 68, 90, 1);
+box-shadow: 5px 0px 27px -24px rgba(66, 68, 90, 1);
 }
 .card:hover {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
@@ -200,7 +216,6 @@ h4 {
 } */
 
 /* CARD  */
-
 h2 {
   font-size: 4.4rem;
   color: rgb(31, 31, 31);
@@ -212,7 +227,6 @@ p {
   font-weight: 400;
   line-height: 1.8;
 }
-
 .p--margin {
   margin-bottom: 4rem;
   margin-right: 28rem;
@@ -261,20 +275,15 @@ p {
 
 .section-cta {
   padding: 4.8rem 0 12.8rem 0;
-  margin: 0 auto;
-  max-width: 80rem;
-  margin-left: 30rem;
-  margin-right: 30rem;
-  margin-top: 8rem;
-  margin-bottom: 7rem;
+  display: flex;
+  justify-content: center;
+  margin: 10rem;
 }
 
 .cta {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
-
   border-radius: 11px;
   background-image: linear-gradient(to right bottom, #fff, rgb(226, 224, 224));
   overflow: hidden;
@@ -351,7 +360,6 @@ h3:hover {
   align-items: center;
   justify-content: space-around;
   text-transform: uppercase;
-
   transition: all 0.3s;
 }
 

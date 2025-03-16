@@ -10,7 +10,6 @@ function App() {
   
   
   return (
-    <div className={`App-${theme}`}>
       <main>
         <Nav />
         <Home />
@@ -20,7 +19,6 @@ function App() {
         <Logos />
         <Footer />
       </main>
-    </div>
   );
 }
 

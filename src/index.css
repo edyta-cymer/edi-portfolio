@@ -141,11 +141,7 @@ a {
 /* HOME */
 .home {
   height: 50rem;
-<<<<<<< HEAD
   padding-top: 27rem;
-=======
-  padding-top: 30rem;
->>>>>>> 3bc774b2d2268a1cb91d430d25c3433b1dec0fc0
 }
 
 h1 {
@@ -206,14 +202,11 @@ h4 {
   border-radius: 15px;
   transition: transform 0.3s ease-in-out;
   padding: 4rem;
-<<<<<<< HEAD
+
   -webkit-box-shadow: 5px 0px 27px -24px rgba(66, 68, 90, 1);
 -moz-box-shadow: 5px 0px 27px -24px rgba(66, 68, 90, 1);
 box-shadow: 5px 0px 27px -24px rgba(66, 68, 90, 1);
-=======
-  background-image: linear-gradient(#e4e4e4, #ddd);
-  border: 1px solid #c9c9c9;
->>>>>>> 3bc774b2d2268a1cb91d430d25c3433b1dec0fc0
+
 }
 
 .card:hover {
@@ -287,18 +280,15 @@ p {
 
 .section-cta {
   padding: 4.8rem 0 12.8rem 0;
-<<<<<<< HEAD
   display: flex;
   justify-content: center;
   margin: 10rem;
-=======
   margin: 0 auto;
   max-width: 80rem;
   margin-left: 50rem;
   margin-right: 30rem;
   margin-top: 8rem;
   margin-bottom: 7rem;
->>>>>>> 3bc774b2d2268a1cb91d430d25c3433b1dec0fc0
 }
 
 .cta {

@@ -141,7 +141,11 @@ a {
 /* HOME */
 .home {
   height: 50rem;
+<<<<<<< HEAD
   padding-top: 27rem;
+=======
+  padding-top: 30rem;
+>>>>>>> 3bc774b2d2268a1cb91d430d25c3433b1dec0fc0
 }
 
 h1 {
@@ -169,10 +173,11 @@ h4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  min-height: 100rem;
-  padding: 0 8rem;
+  min-height: 90rem;
+  padding: 0 30rem;
   gap: 3rem;
-  max-width: 120rem;
+  border-top: 1px solid #ddd;
+
 }
 .photo-one {
   height: 50rem;
@@ -195,20 +200,27 @@ h4 {
   padding: 7rem;
 }
 .card {
-  height: 60rem;
+  height: 50rem;
   min-width: 30rem;
   margin: 2rem 2rem;
   border-radius: 15px;
   transition: transform 0.3s ease-in-out;
   padding: 4rem;
+<<<<<<< HEAD
   -webkit-box-shadow: 5px 0px 27px -24px rgba(66, 68, 90, 1);
 -moz-box-shadow: 5px 0px 27px -24px rgba(66, 68, 90, 1);
 box-shadow: 5px 0px 27px -24px rgba(66, 68, 90, 1);
+=======
+  background-image: linear-gradient(#e4e4e4, #ddd);
+  border: 1px solid #c9c9c9;
+>>>>>>> 3bc774b2d2268a1cb91d430d25c3433b1dec0fc0
 }
+
 .card:hover {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   transform: scale(1.021);
   background-image: linear-gradient(#fff, #d6d6d6);
+  border: 1px solid #c9c9c9;
 }
 
 /* .card-three {
@@ -275,9 +287,18 @@ p {
 
 .section-cta {
   padding: 4.8rem 0 12.8rem 0;
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
   margin: 10rem;
+=======
+  margin: 0 auto;
+  max-width: 80rem;
+  margin-left: 50rem;
+  margin-right: 30rem;
+  margin-top: 8rem;
+  margin-bottom: 7rem;
+>>>>>>> 3bc774b2d2268a1cb91d430d25c3433b1dec0fc0
 }
 
 .cta {
